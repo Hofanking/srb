@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({"com.scorpios.srb"})
+@ComponentScan({"com.scorpios.srb","com.scorpios.common"})
 public class ServiceCoreApplication {
 
     public static void main(String[] args) {
