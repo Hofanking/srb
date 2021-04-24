@@ -68,10 +68,10 @@ public class LendItemReturn implements Serializable {
     @ApiModelProperty(value = "手续费")
     private BigDecimal fee;
 
-    @ApiModelProperty(value = "还款时指定的还款日期")
+    @ApiModelProperty(value = "还款时指定的还款日期",example = "2021-01-01 08:00:00")
     private LocalDate returnDate;
 
-    @ApiModelProperty(value = "实际发生的还款时间")
+    @ApiModelProperty(value = "实际发生的还款时间",example = "2021-01-01 08:00:00")
     private LocalDateTime realReturnTime;
 
     @ApiModelProperty(value = "是否逾期")
@@ -84,10 +84,10 @@ public class LendItemReturn implements Serializable {
     @ApiModelProperty(value = "状态（0-未归还 1-已归还）")
     private Integer status;
 
-    @ApiModelProperty(value = "创建时间")
+    @ApiModelProperty(value = "创建时间",example = "2021-01-01 08:00:00")
     private LocalDateTime createTime;
 
-    @ApiModelProperty(value = "更新时间")
+    @ApiModelProperty(value = "更新时间",example = "2021-01-01 08:00:00")
     private LocalDateTime updateTime;
 
     @ApiModelProperty(value = "逻辑删除(1:已删除，0:未删除)")

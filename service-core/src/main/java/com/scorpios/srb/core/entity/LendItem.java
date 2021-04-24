@@ -50,13 +50,13 @@ public class LendItem implements Serializable {
     @ApiModelProperty(value = "年化利率")
     private BigDecimal lendYearRate;
 
-    @ApiModelProperty(value = "投资时间")
+    @ApiModelProperty(value = "投资时间",example = "2021-01-01 08:00:00")
     private LocalDateTime investTime;
 
-    @ApiModelProperty(value = "开始日期")
+    @ApiModelProperty(value = "开始日期",example = "2021-01-01 08:00:00")
     private LocalDate lendStartDate;
 
-    @ApiModelProperty(value = "结束日期")
+    @ApiModelProperty(value = "结束日期",example = "2021-01-01 08:00:00")
     private LocalDate lendEndDate;
 
     @ApiModelProperty(value = "预期收益")
@@ -68,10 +68,10 @@ public class LendItem implements Serializable {
     @ApiModelProperty(value = "状态（0：默认 1：已支付 2：已还款）")
     private Integer status;
 
-    @ApiModelProperty(value = "创建时间")
+    @ApiModelProperty(value = "创建时间",example = "2021-01-01 08:00:00")
     private LocalDateTime createTime;
 
-    @ApiModelProperty(value = "更新时间")
+    @ApiModelProperty(value = "更新时间",example = "2021-01-01 08:00:00")
     private LocalDateTime updateTime;
 
     @ApiModelProperty(value = "逻辑删除(1:已删除，0:未删除)")

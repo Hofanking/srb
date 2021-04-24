@@ -68,13 +68,13 @@ public class Lend implements Serializable {
     @ApiModelProperty(value = "投资人数")
     private Integer investNum;
 
-    @ApiModelProperty(value = "发布日期")
+    @ApiModelProperty(value = "发布日期",example = "2021-01-01 08:00:00")
     private LocalDateTime publishDate;
 
-    @ApiModelProperty(value = "开始日期")
+    @ApiModelProperty(value = "开始日期",example = "2021-01-01 08:00:00")
     private LocalDate lendStartDate;
 
-    @ApiModelProperty(value = "结束日期")
+    @ApiModelProperty(value = "结束日期",example = "2021-01-01 08:00:00")
     private LocalDate lendEndDate;
 
     @ApiModelProperty(value = "说明")
@@ -89,22 +89,22 @@ public class Lend implements Serializable {
     @ApiModelProperty(value = "状态")
     private Integer status;
 
-    @ApiModelProperty(value = "审核时间")
+    @ApiModelProperty(value = "审核时间",example = "2021-01-01 08:00:00")
     private LocalDateTime checkTime;
 
     @ApiModelProperty(value = "审核用户id")
     private Long checkAdminId;
 
-    @ApiModelProperty(value = "放款时间")
+    @ApiModelProperty(value = "放款时间",example = "2021-01-01 08:00:00")
     private LocalDateTime paymentTime;
 
     @ApiModelProperty(value = "放款人id")
     private LocalDateTime paymentAdminId;
 
-    @ApiModelProperty(value = "创建时间")
+    @ApiModelProperty(value = "创建时间",example = "2021-01-01 08:00:00")
     private LocalDateTime createTime;
 
-    @ApiModelProperty(value = "更新时间")
+    @ApiModelProperty(value = "更新时间",example = "2021-01-01 08:00:00")
     private LocalDateTime updateTime;
 
     @ApiModelProperty(value = "逻辑删除(1:已删除，0:未删除)")

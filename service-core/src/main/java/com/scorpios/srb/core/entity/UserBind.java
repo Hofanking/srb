@@ -54,10 +54,10 @@ public class UserBind implements Serializable {
     @ApiModelProperty(value = "状态")
     private Integer status;
 
-    @ApiModelProperty(value = "创建时间")
+    @ApiModelProperty(value = "创建时间",example = "2021-01-01 08:00:00")
     private LocalDateTime createTime;
 
-    @ApiModelProperty(value = "更新时间")
+    @ApiModelProperty(value = "更新时间",example = "2021-01-01 08:00:00")
     private LocalDateTime updateTime;
 
     @ApiModelProperty(value = "逻辑删除(1:已删除，0:未删除)")

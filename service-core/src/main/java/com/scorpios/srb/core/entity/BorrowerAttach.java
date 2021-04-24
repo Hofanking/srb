@@ -42,10 +42,10 @@ public class BorrowerAttach implements Serializable {
     @ApiModelProperty(value = "图片名称")
     private String imageName;
 
-    @ApiModelProperty(value = "创建时间")
+    @ApiModelProperty(value = "创建时间",example = "2021-01-01 08:00:00")
     private LocalDateTime createTime;
 
-    @ApiModelProperty(value = "更新时间")
+    @ApiModelProperty(value = "更新时间",example = "2021-01-01 08:00:00")
     private LocalDateTime updateTime;
 
     @ApiModelProperty(value = "逻辑删除(1:已删除，0:未删除)")

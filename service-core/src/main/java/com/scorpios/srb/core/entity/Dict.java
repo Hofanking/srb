@@ -42,10 +42,10 @@ public class Dict implements Serializable {
     @ApiModelProperty(value = "编码")
     private String dictCode;
 
-    @ApiModelProperty(value = "创建时间")
+    @ApiModelProperty(value = "创建时间",example = "2021-01-01 08:00:00")
     private LocalDateTime createTime;
 
-    @ApiModelProperty(value = "更新时间")
+    @ApiModelProperty(value = "更新时间",example = "2021-01-01 08:00:00")
     private LocalDateTime updateTime;
 
     @ApiModelProperty(value = "删除标记（0:不可用 1:可用）")
